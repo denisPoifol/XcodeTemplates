@@ -12,7 +12,7 @@ class ___FILEBASENAME___ {
 
     // MARK: - ___FILEBASENAME___
 
-    func execute() {
+    func execute(_ completion: ((Result<___VARIABLE_ReturnType___>) -> Void)?) {
         // TODO: (___FULLUSERNAME___) Implement interactor
     }
 }

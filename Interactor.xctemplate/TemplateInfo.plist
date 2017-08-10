@@ -40,6 +40,36 @@
 			<key>Default</key>
 			<string>Interactor</string>
 		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>ReturnType</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>return type :</string>
+			<key>Description</key>
+			<string>The type to return</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Default</key>
+			<string>Void</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>PromiseKit</string>
+			<key>Name</key>
+			<string>Use promiseKit</string>
+			<key>Description</key>
+			<string>Whether to use promiseKit</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>true</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
 	</array>
 </dict>
 </plist>
