@@ -11,7 +11,7 @@ import PromiseKit
 
 class ___VARIABLE_productName___PresenterImplementation: ___VARIABLE_productName___Presenter {
 
-    private unowned let viewContract: ___VARIABLE_productName___ViewContract
+    private weak var viewContract: ___VARIABLE_productName___ViewContract?
 
     private lazy var fetchOnceProperties: Promise<Void>
         = self.fetchOncePropertiesInitializer()
@@ -57,7 +57,7 @@ class ___VARIABLE_productName___PresenterImplementation: ___VARIABLE_productName
     private func computeAndDisplayViewModel() {
         // TODO: (___FULLUSERNAME___) Guard let required properties
         let viewModel = ___VARIABLE_productName___ControllerViewModelMapper().map()
-        viewContract.configure(with: viewModel)
+        viewContract?.configure(with: viewModel)
     }
 
     private func fetchOncePropertiesInitializer() -> Promise<Void> {
