@@ -24,17 +24,17 @@ class ___FILEBASENAME___: ___VARIABLE_SuperClass___ {
     // MARK: - ___FILENAME___
 
     func configure(with viewModel: ___VARIABLE_ViewModel___) {
-        // TODO: (___FULLUSERNAME___) Configure view
+        // TODO: (___FULLUSERNAME___) ___DATE___ Configure view
     }
 
     // MARK: - Private methods
 
     private func setup() {
         setupLayout()
-        // TODO: (___FULLUSERNAME___) Setup subviews
+        // TODO: (___FULLUSERNAME___) ___DATE___ Setup subviews
     }
 
     private func setupLayout() {
-        // TODO: (___FULLUSERNAME___) Setup layout
+        // TODO: (___FULLUSERNAME___) ___DATE___ Setup layout
     }
 }

@@ -39,12 +39,12 @@ class ___VARIABLE_productName___ViewController: ___VARIABLE_SuperClass___,
     // MARK: - ___VARIABLE_productName___ViewContract
 
     func configure(with viewModel: ___VARIABLE_productName___ControllerViewModel) {
-        // TODO: (___FULLUSERNAME___) Configure view
+        // TODO: (___FULLUSERNAME___) ___DATE___ Configure view
     }
 
     // MARK: - Private methods
 
     private func setup() {
-        // TODO: (___FULLUSERNAME___) Setup subviews
+        // TODO: (___FULLUSERNAME___) ___DATE___ Setup subviews
     }
 }

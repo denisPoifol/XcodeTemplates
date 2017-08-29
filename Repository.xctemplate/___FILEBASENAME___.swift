@@ -9,5 +9,5 @@
 import Foundation
 
 protocol ___FILEBASENAME___ {
-    // TODO: (___FULLUSERNAME___) Add requirements to ___FILEBASENAME___ 
+    // TODO: (___FULLUSERNAME___) ___DATE___ Add requirements to ___FILEBASENAME___
 }

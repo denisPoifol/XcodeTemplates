@@ -51,11 +51,11 @@ class ___VARIABLE_productName___PresenterImplementation: ___VARIABLE_productName
     // MARK: - private methods
 
     private func handleError(_ error: Error) {
-        // TODO: (___FULLUSERNAME___) HandleError
+        // TODO: (___FULLUSERNAME___) ___DATE___ HandleError
     }
 
     private func computeAndDisplayViewModel() {
-        // TODO: (___FULLUSERNAME___) Guard let required properties
+        // TODO: (___FULLUSERNAME___) ___DATE___ Guard let required properties
         let viewModel = ___VARIABLE_productName___ControllerViewModelMapper().map()
         viewContract?.configure(with: viewModel)
     }
