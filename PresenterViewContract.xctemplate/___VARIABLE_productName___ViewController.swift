@@ -9,7 +9,8 @@
 import Foundation
 import UIKit
 
-class ___VARIABLE_productName___ViewController: ___VARIABLE_SuperClass___ {
+class ___VARIABLE_productName___ViewController: ___VARIABLE_SuperClass___,
+    ___VARIABLE_productName___ViewContract {
 
     var presenter: ___VARIABLE_productName___Presenter?
 
