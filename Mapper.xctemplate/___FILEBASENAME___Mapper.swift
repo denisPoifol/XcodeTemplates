@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ___FILEBASENAME___Mapper {
+struct ___FILEBASENAME___Mapper {
 
     // MARK: - ___FILEBASENAME___Mapper
 
