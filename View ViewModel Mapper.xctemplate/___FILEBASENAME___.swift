@@ -21,7 +21,7 @@ class ___FILEBASENAME___: ___VARIABLE_SuperClass___ {
         setup()
     }
 
-    // MARK: - ___FILENAME___
+    // MARK: - ___FILEBASENAME___
 
     func configure(with viewModel: ___VARIABLE_ViewModel___) {
         // TODO: (___FULLUSERNAME___) ___DATE___ Configure view
