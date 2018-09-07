@@ -7,14 +7,10 @@
 //
 
 import Foundation
-import PromiseKit
 
 class ___VARIABLE_productName___PresenterImplementation: ___VARIABLE_productName___Presenter {
 
     private weak var viewContract: ___VARIABLE_productName___ViewContract?
-
-    private lazy var fetchOnceProperties: Promise<Void>
-        = self.fetchOncePropertiesInitializer()
 
     // MARK: LifeCycle
 
@@ -25,25 +21,7 @@ class ___VARIABLE_productName___PresenterImplementation: ___VARIABLE_productName
     // MARK: - Startable
 
     func start() {
-        if fetchOnceProperties.isRejected {
-            fetchOnceProperties = fetchOncePropertiesInitializer()
-        }
-    }
-
-    // MARK: - Reloadable
-
-    func reload() {
-        if fetchOnceProperties.isRejected {
-            fetchOnceProperties = fetchOncePropertiesInitializer()
-        }
-        when(fulfilled:
-            fetchOnceProperties,
-            fetchOnReloadProperties()
-            ).then { [weak self] _ in
-                self?.computeAndDisplayViewModel()
-            }.catch { [weak self] error in
-                self?.handleError(error)
-            }
+        // TODO: (Denis Poifol) 07/09/2018 Implement
     }
 
     // MARK: - ___VARIABLE_productName___Presenter
@@ -58,13 +36,5 @@ class ___VARIABLE_productName___PresenterImplementation: ___VARIABLE_productName
         // TODO: (___FULLUSERNAME___) ___DATE___ Guard let required properties
         let viewModel = ___VARIABLE_productName___ControllerViewModelMapper().map()
         viewContract?.configure(with: viewModel)
-    }
-
-    private func fetchOncePropertiesInitializer() -> Promise<Void> {
-        return when(fulfilled: [])
-    }
-
-    private func fetchOnReloadProperties() -> Promise<Void> {
-        return when(fulfilled: [])
     }
 }

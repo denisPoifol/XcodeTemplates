@@ -8,7 +8,6 @@
 
 import Foundation
 
-protocol ___VARIABLE_productName___Presenter: Startable,
-    Reloadable {
-
+protocol ___VARIABLE_productName___Presenter {
+    func start()
 }

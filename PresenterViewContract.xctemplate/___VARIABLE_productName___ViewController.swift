@@ -31,11 +31,6 @@ class ___VARIABLE_productName___ViewController: ___VARIABLE_SuperClass___,
         presenter?.start()
     }
 
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        presenter?.reload()
-    }
-
     // MARK: - ___VARIABLE_productName___ViewContract
 
     func configure(with viewModel: ___VARIABLE_productName___ControllerViewModel) {
