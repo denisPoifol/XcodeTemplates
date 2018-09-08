@@ -68,15 +68,36 @@
 		</dict>
 		<dict>
 			<key>Identifier</key>
-			<string>headerFooterModel</string>
+			<string>headerFooterViewModel</string>
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
-			<string>header/footer viewModel</string>
+			<string>header/footer ViewModel name</string>
 			<key>Description</key>
-			<string>header/footer viewModel</string>
+			<string>header/footer ViewModel name</string>
 			<key>Type</key>
 			<string>text</string>
+			<key>RequiredOptions</key>
+			<dict>
+				<key>HeaderFooter</key>
+				<array>
+					<string>true</string>
+				</array>
+			</dict>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>headerFooterViewClass</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>header/footer View class name</string>
+			<key>Description</key>
+			<string>header/footer View class name</string>
+			<key>Type</key>
+			<string>class</string>
 			<key>RequiredOptions</key>
 			<dict>
 				<key>HeaderFooter</key>
