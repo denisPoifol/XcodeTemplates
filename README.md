@@ -35,9 +35,6 @@ This template create all required files for a new screen in your app :
 * A controllerViewModel file : which is basically a viewModel for your viewController
 * A controllerViewModelMapper file : implementing a mapper for the above viewModel
 * A presenterImplementation file : defining a concrete class for you presenter
-Note that by default the presenter protocol inherrit from `Startable` and `Reloadable` which are protocol requiring the presence of the methods `start()` and `reload()`. Those method are called by the viewController respectively in the `viewDidLoad()` and `viewDidAppear(_ animated: Bool)`
-
-The presenterImplementation class also provides a set of methods that fetch some properties at start while fetching others at reload, this implementation expect your class variable to be *optional type* and fetched using promise declared in one of the following methods `fetchOnReloadProperties() -> Promise<Void>`, `fetchOncePropertiesInitializer() -> Promise<Void>`
 
 ## View ViewModel Mapper Template
 
