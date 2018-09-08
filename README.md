@@ -5,9 +5,8 @@ Xcode Templates for Clean Code architecture
 
 ```
 git init git@github.com:denisPoifol/XcodeTemplates.git
-cd XcodeTemplates
 mkdir -p ~/Library/Developer/Xcode/Templates/Custom
-cp -r ./*xctemplate ~/Library/Developer/Xcode/Templates/Custom/
+ln -s XCodeTemplates ~/Library/Developer/Xcode/Templates/Custom
 ```
 or simply by cloning this repository directly in the **Templates** directory
 
