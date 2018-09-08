@@ -52,6 +52,41 @@
 			<key>NotPersisted</key>
 			<true/>
 		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>HeaderFooter</string>
+			<key>Name</key>
+			<string>Specify a header/footer ViewModel</string>
+			<key>Description</key>
+			<string>Specify a header/footer ViewModel</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>false</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>headerFooterModel</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>header/footer viewModel</string>
+			<key>Description</key>
+			<string>header/footer viewModel</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>RequiredOptions</key>
+			<dict>
+				<key>HeaderFooter</key>
+				<array>
+					<string>true</string>
+				</array>
+			</dict>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
 	</array>
 </dict>
 </plist>
