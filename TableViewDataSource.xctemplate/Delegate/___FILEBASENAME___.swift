@@ -9,16 +9,22 @@
 import Foundation
 import UIKit
 
-typealias ___VARIABLE_baseName___TableViewModel =
-    TableViewModel<Void, ___VARIABLE_baseName___TableViewCellViewModel>
-typealias ___VARIABLE_baseName___TableSectionViewModel =
-    TableViewModel<Void, ___VARIABLE_baseName___TableViewCellViewModel>
+typealias ___VARIABLE_productName___TableViewModel =
+    TableViewModel<Void, ___VARIABLE_productName___TableViewCellViewModel>
+typealias ___VARIABLE_productName___TableSectionViewModel =
+    TableViewModel<Void, ___VARIABLE_productName___TableViewCellViewModel>
 
-class ___VARIABLE_baseName___DataSource: NSObject,
+protocol ___VARIABLE_productName___DataSourceDelegate: class {
+    // TODO: (___FULLUSERNAME___) ___DATE___ Require methods
+}
+
+class ___VARIABLE_productName___DataSource: NSObject,
     TableViewContent,
-    UITableViewDataSource {
+    UITableViewDataSource,
+    UITableViewDelegate {
 
-    private var viewModel = ___VARIABLE_baseName___TableViewModel()
+    weak var delegate: ___VARIABLE_productName___DataSourceDelegate?
+    private var viewModel = ___VARIABLE_productName___TableViewModel()
 
     // MARK: - TableViewContent
 
@@ -37,7 +43,6 @@ class ___VARIABLE_baseName___DataSource: NSObject,
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        switch viewModel[indexPath] {
-        }
+        // TODO: (___FULLUSERNAME___) ___DATE___ Dequeue cell
     }
 }
