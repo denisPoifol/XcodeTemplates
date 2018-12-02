@@ -21,16 +21,12 @@ class ___VARIABLE_productName___PresenterImplementation: ___VARIABLE_productName
     // MARK: - Startable
 
     func start() {
-        // TODO: (Denis Poifol) 07/09/2018 Implement
+        computeAndDisplayViewModel()
     }
 
     // MARK: - ___VARIABLE_productName___Presenter
 
     // MARK: - private methods
-
-    private func handleError(_ error: Error) {
-        // TODO: (___FULLUSERNAME___) ___DATE___ HandleError
-    }
 
     private func computeAndDisplayViewModel() {
         // TODO: (___FULLUSERNAME___) ___DATE___ Guard let required properties
